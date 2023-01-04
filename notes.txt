@@ -1,0 +1,16 @@
+npm install -D nodemon
+    This installs nodemon aka NodeMonitor which allows you to no have to 
+    exit the server every time you make a change. The -D means it is only 
+    running on the Development side of the application. You then add a script in the package.json
+    file like this: "start": "node index", "dev" : "nodemon index". You use the command
+    npm run dev. "run" allows you to execute whatever scripts you add in the package.json file.
+
+Remember, websites are just an organization of files. Big or small.
+
+Handlebars is a JS library used to create reusable webpage templates. It makes it a lot easier
+to work with dynamic webpages. You can easily pass info/variables/data from backend and display
+it to the front end. A little confusing at first, but not too hard.
+
+Version Control
+    Very important for all coding. Allows you to save versions of your code. Over time it will
+    take snapshots of your code and save them. Great for working with teams.
