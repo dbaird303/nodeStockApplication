@@ -13,4 +13,8 @@ it to the front end. A little confusing at first, but not too hard.
 
 Version Control
     Very important for all coding. Allows you to save versions of your code. Over time it will
-    take snapshots of your code and save them. Great for working with teams.
+    take snapshots of your code and save them. Great for working with teams. This is where git and Github
+    comes in handy.
+
+    When you initialize a project with git. The git files are hidden. To see to make sure they are 
+    there use the command: ls -a inside your project folder.
