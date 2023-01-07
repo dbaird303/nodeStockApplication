@@ -70,7 +70,7 @@ app.get('/', function(req,res) {
         res.render('home', {
             fundamentals: apiCallFund
         });   
-    }); 
+    },"AAPL"); 
 });
 
 // Set handlebar index POST route
@@ -83,7 +83,7 @@ app.post('/', function(req,res) {
     },req.body.stock_ticker); 
 });
 
-app.get('/', function(req,res) {
+app.get('/about', function(req,res) {
     call_intra(function(apiCallIntra) { // callback function
         res.render('home', {
             prices: apiCallIntra
