@@ -1,14 +1,22 @@
-<h1>{{fundamentals.Name}} ({{fundamentals.Symbol}})</h1>
+{{post_request}}<br/>
 
-<br/> <br/>
-<b> Description: </b> {{fundamentals.Description}}
-<br/><br/>
 
-<b>Industry: </b>{{fundamentals.Industry}}
-<br/><br/>
-<b>52WeekHigh:</b> ${{fundamentals.52WeekHigh}}
-<br/><br/>
-<b>52WeekLow:</b> ${{fundamentals.52WeekLow}}
+<div class="jumbotron">
+  <h1 class="display-4">{{fundamentals.Name}} ({{fundamentals.Symbol}})</h1>
+  <p class="lead"><b> Description: </b> {{fundamentals.Description}}</p>
+  <hr class="my-4">
+    <p>
+    <br/><br/>
+
+    <b>Industry: </b>{{fundamentals.Industry}}
+    <br/><br/>
+    <b>52WeekHigh:</b> ${{fundamentals.52WeekHigh}}
+    <br/><br/>
+    <b>52WeekLow:</b> ${{fundamentals.52WeekLow}}</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
 
 <h1>{{prices}}</h1>
 
